@@ -2,18 +2,18 @@
 - Postman
 - Jmeter
 - CheckLists
-- Bag Reports
+- Bug Reports
 - SQL
 - Charles
 - Mobile testing
 
-git branch Postman && git branch Jmeter && git branch CheckLists && git branch BagReports && git branch SQL && git branch Charles && MobileTesting
+git branch Postman && git branch Jmeter && git branch CheckLists && git branch BugReports && git branch SQL && git branch Charles && MobileTesting
 
 2. Запушить все ветки на внешний репозиторий: 
 git push --all
 
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта: 
-git checkout Bag-report > cat >Bagreport.txt
+git checkout Bug-report > cat >Bugreport.txt
 ID: 1
 Reporter: Alexandr Polienko
 Date: 2023-06-21
@@ -42,8 +42,8 @@ Operating System: Windows 11
 Browser: Chrome 140
 
 CTRL+C
-4. Запушить структуру багрепорта на внешний репозиторий: git add . > git commit -m "Bag commit" > git push -u origin BagReports
-5. Вмержить ветку Bag Reports в Main: git checkout main > git merge Bag-report
+4. Запушить структуру багрепорта на внешний репозиторий: git add . > git commit -m "Bag commit" > git push -u origin BugReports
+5. Вмержить ветку Bag Reports в Main: git checkout main > git merge Bug-report
 6. Запушить main на внешний репозиторий: git push -u origin main
 7. В ветке CheckLists набросать структуру чек листа: 
 git checkout CheckList > cat >CheckList.txt
